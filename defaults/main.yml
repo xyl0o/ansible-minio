@@ -43,3 +43,5 @@ minio_install_client: true
 # Don't run minio server but minio gateway
 minio_gateway: false
 minio_gateway_type: s3
+minio_gateway_cache: false
+#MINIO_CACHE_DRIVES -> minio_server_datadirs
